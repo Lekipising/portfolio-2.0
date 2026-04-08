@@ -52,13 +52,12 @@ export default function Projects({
       id="_projects"
       className="relative m-auto mb-32 mt-20 flex max-w-[95%] flex-col justify-center gap-12 py-8 pb-[10rem] md:relative md:mt-0 md:flex-row md:gap-5 md:py-32 md:pb-[0rem]"
     >
-      <div className="absolute -top-12 left-1/2 w-full -translate-x-1/2 text-center md:top-12 md:w-[520px] md:text-left">
+      <div className="absolute -top-12 left-1/2 w-full -translate-x-1/2 text-center md:top-12 md:w-[150px] md:text-left">
         <motion.h2
           ref={observeRef}
           className="heading-gradient mx-auto text-lg font-semibold text-white"
         >
-          Adventures in Development: <br className="block md:hidden" /> Top
-          Personal Projects
+          Selected Work
         </motion.h2>
         <motion.div
           initial={{ width: 0 }}
@@ -78,7 +77,6 @@ export default function Projects({
 }
 
 function OneProject({ project, index }: { project: Project; index: number }) {
-
   return (
     <motion.div
       initial={{ y: 50 }}
@@ -124,7 +122,7 @@ function OneProject({ project, index }: { project: Project; index: number }) {
               ))}
             </div>
 
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full md:flex-row flex-col md:gap-[unset] gap-2 items-center justify-between">
               <a
                 href={project.status !== "Inactive" ? project.link : "#"}
                 target="_blank"
@@ -133,17 +131,7 @@ function OneProject({ project, index }: { project: Project; index: number }) {
               >
                 View project
               </a>
-              <p
-                className={`text-[14px] font-medium tracking-tight xl:text-[14px] ${
-                  project.status === "Completed"
-                    ? "text-green"
-                    : project.status === "Active"
-                      ? "text-blue"
-                      : "text-gray-400"
-                }`}
-              >
-                {project.status}
-              </p>
+              <span className="text-xs text-gray-500">{project.status}</span>
             </div>
           </div>
         </div>

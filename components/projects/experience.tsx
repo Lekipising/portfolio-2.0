@@ -39,7 +39,8 @@ const Experience = () => {
               <span className="text-xs text-gray-100">July 2024 - Present</span>
             </div>
             <p className="text-sm font-medium text-gray-400">
-              Software Engineer - Full-time
+              Software Engineer — Building core platform features, owning
+              frontend architecture for agricultural fintech.
             </p>
           </div>
         </motion.div>
@@ -58,7 +59,8 @@ const Experience = () => {
               <span className="text-xs text-gray-100">Apr 2022 - Apr 2024</span>
             </div>
             <p className="text-sm font-medium text-gray-400">
-              Software Engineer - Full-time
+              Software Engineer — Led rebuild of core learning platform, reduced
+              page load times by 60%.
             </p>
           </div>
         </motion.div>
@@ -80,7 +82,8 @@ const Experience = () => {
             </div>
 
             <p className="text-sm font-medium text-gray-400">
-              Software Engineer - Full-time
+              Software Engineer — Shipped patient management system for 3
+              hospitals, handled 10k+ daily records.
             </p>
           </div>
         </motion.div>
@@ -99,7 +102,8 @@ const Experience = () => {
               <span className="text-xs text-gray-100">Jul 2021 - Apr 2022</span>
             </div>
             <p className="text-sm font-medium text-gray-400">
-              Frontend Developer - Full-time
+              Frontend Developer — First engineering hire, built checkout and
+              inventory systems from scratch.
             </p>
           </div>
         </motion.div>

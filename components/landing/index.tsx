@@ -31,7 +31,7 @@ export default function FirstScreen({
     <section
       id="_hello"
       ref={observeRef}
-      className="relative flex h-auto flex-col items-center justify-start gap-32 pb-16 pt-16 md:h-full md:max-h-[1200px] md:flex-row md:justify-center md:pb-0 md:pt-0"
+      className="relative flex h-auto flex-col items-center justify-start gap-32 p-6 pb-16 pt-16 md:h-full md:max-h-[1200px] md:flex-row md:justify-center md:pb-0 md:pt-0"
     >
       <div className="flex w-[90%] flex-col gap-6 md:w-auto">
         <div>
@@ -42,17 +42,17 @@ export default function FirstScreen({
           >
             Liplan Lekipising
           </h1>
-          <p className="text-[21px] mt-2 md:mt-0 font-medium tracking-tight text-green md:text-[32px]">
+          <p className="mt-2 text-[21px] font-medium tracking-tight text-green md:mt-0 md:text-[32px]">
             &gt; Senior Software Engineer
           </p>
         </div>
         <div className="flex flex-col gap-2 text-gray-100 md:gap-1">
           <p>
-            Crafting exceptional user experiences from concept to deployment.{" "}
-            <br />
-            <br className="md:hidden" /> I specialize in the Next.js and React ecosystem, building
-            products <br />
-            that users love and teams are proud of.
+            I take messy product ideas and turn them into production systems
+            that don&apos;t break. <br />
+            <br className="md:hidden" /> Five years of shipping across fintech,
+            logistics, edtech, and social — I know what works and what gets
+            users frustrated.
           </p>
           {/* some quick action buttons/links here - view my work - takes to projects, Get in touch - takes to contact, Download Resume - takes to resume */}
           <div className="mt-10 flex flex-col gap-4 lg:flex-row">
@@ -66,7 +66,7 @@ export default function FirstScreen({
               onClick={() => scrollIntoId("_contact-me")}
               className={`flex cursor-pointer items-center justify-center rounded-br-xl rounded-tl-xl border-[0.5px] border-gray-200 px-4 py-2 font-medium text-gray-100 shadow transition-all duration-150 ease-in hover:border-green/10 hover:text-green/70`}
             >
-              Get in Touch
+              Start a Conversation
             </button>
             <a
               href="/Lekipising-Liplan-Resume.pdf"
@@ -79,7 +79,7 @@ export default function FirstScreen({
           </div>
         </div>
       </div>
-      <div className="pic-shadow relative z-50 hidden h-[25vw] w-[25vw] overflow-hidden rounded-full outline outline-green md:block">
+      <div className="pic-shadow relative z-50 hidden h-[25vw] w-[25vw] shrink-0 overflow-hidden rounded-full outline outline-green md:block">
         <Image
           src={
             "https://res.cloudinary.com/dpnbddror/image/upload/c_scale,f_auto,h_800/v1697208403/liplan/v4_x34zg3.jpg"
@@ -89,7 +89,7 @@ export default function FirstScreen({
           quality={100}
           priority={true}
           alt="Liplan Lekipising - Portfolio"
-          className="rounded-full bg-left object-left transition-all duration-300 ease-in hover:scale-[1.025]"
+          className="shrink-0 rounded-full bg-left object-left transition-all duration-300 ease-in hover:scale-[1.025]"
           sizes="100vw"
           style={{
             width: "100%",

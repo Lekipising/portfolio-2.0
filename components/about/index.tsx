@@ -47,24 +47,26 @@ export default function AboutMe({
       <br />
 
       <p className="max-w-3xl !leading-loose transition-all duration-300 ease-in hover:text-white/70">
-        I&apos;ve spent the last five years building software that people actually use.
-        Started with code, evolved into architecture. I work mostly on the
-        frontend with Next.js, TypeScript, Prisma, Tailwind. It&apos;s all about turning complex problems into interfaces
-        that just make sense.
+        I&apos;ve spent the last six years building software that people
+        actually use. Started with frontend code, grew into owning full systems.
+        Now I ship end-to-end: from the database schema to the pixel-perfect
+        interface. Next.js, TypeScript, Prisma, Tailwind — these are my tools,
+        but the real work is figuring out what users need and building it right.
       </p>
       <br />
       <p className="max-w-3xl !leading-loose transition-all duration-300 ease-in hover:text-white/70">
-        I work closely with product, design, and customers because good software isn&apos;t
-        built in isolation. It&apos;s about understanding what needs to exist and why,
-        then figuring out how to build it right.
+        I work closely with product, design, and customers because good software
+        isn&apos;t built in isolation. It&apos;s about understanding what needs
+        to exist and why, then figuring out how to build it without breaking
+        what&apos;s already working.
       </p>
       <br />
       <p className="max-w-3xl !leading-loose transition-all duration-300 ease-in hover:text-white/70">
-        When it comes to leading teams, I&apos;m in the trenches with everyone else.
-        I believe in leading by example: writing code, reviewing PRs, unblocking problems.
-        My goal is simple: help the team perform at their best while actually enjoying
-        the work. That means inspiring when needed, mentoring, and always
-        being present.
+        When it comes to leading teams, I&apos;m in the trenches with everyone
+        else. I lead by example: writing code, reviewing PRs, unblocking
+        problems. My goal is simple — help the team ship good work on time
+        without burning out. That means mentoring when needed, clearing
+        roadblocks, and staying present.
       </p>
       <br />
       <p className="transition-all duration-300 ease-in hover:text-white/70">
