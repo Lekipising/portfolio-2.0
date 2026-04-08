@@ -11,12 +11,13 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   }
 
   try {
-    await resend.emails.send({
+    const resp = await resend.emails.send({
       from: `${name} via Portfolio <${process.env.EMAIL_FROM}>`,
       to: process.env.EMAIL_TO,
       subject: `Message from ${name}`,
       text: `From: ${email}\n\nMessage: ${message}`,
     });
+    console.log(resp);
     res.json({ message: `Email has been sent` });
   } catch (error) {
     console.log(error);
