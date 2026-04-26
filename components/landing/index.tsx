@@ -50,7 +50,7 @@ export default function FirstScreen({
           <p>
             I take messy product ideas and turn them into production systems
             that don&apos;t break. <br />
-            <br className="md:hidden" /> Five years of shipping across fintech,
+            <br className="md:hidden" /> Six years of shipping across fintech,
             logistics, edtech, and social — I know what works and what gets
             users frustrated.
           </p>
